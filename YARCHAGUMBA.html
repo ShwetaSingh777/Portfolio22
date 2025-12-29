@@ -44,6 +44,28 @@
       background-color: #dbcf9b;
     }
 
+     .img-container {
+  width: 100%;
+  margin: 0 auto;    /* centers and prevents overflow */
+  overflow: hidden;  /* ensures nothing spills out */
+}
+
+
+.two-img-row img {
+  width: 50%;
+  min-width: 0; /* prevents flex overflow behavior */
+  object-fit: cover;
+}
+
+
+    .two-img-row {
+  display: flex;
+  width: 100%;
+  gap: 25px; /* center gutter size you can adjust anytime */
+  margin-left: 0;
+  margin-right: 0;
+}
+
 
 
     @media (max-width: 991px) {
@@ -353,38 +375,37 @@
     </video>
   </div>
 
-  <div class="row">
-    <div class="col-md-6 project_margin">
-      <img src="Images/Yarchagumba/SLIDE_04A.png" width="100%">
-    </div>
-    <div class="col-md-6 project_margin">
-      <img src="Images/Yarchagumba/SLIDE_04B.gif" width="100%">
-    </div>
-  </div>
+  <div class="img-container">
+  <div class="two-img-row project_margin">
+  <img src="Images/Yarchagumba/SLIDE_04A.png" alt="post 1">
+  <img src="Images/Yarchagumba/SLIDE_04B.gif" alt="post 2">
+</div>
+</div>
 
-  <div class="row">
-    <div class="col-md-6 project_margin">
-      <video autoplay loop muted playsinline class="full-video">
-        <source src="Images/Yarchagumba/SLIDE_05B.mp4" type="video/mp4" width="100%">
+<div class="img-container">
+  <div class="two-img-row project_margin">
+  <video autoplay loop muted playsinline class="full-video">
+        <source src="Images/Yarchagumba/SLIDE_05B.mp4" type="video/mp4">
       </video>
-    </div>
-    <div class="col-md-6 project_margin">
-      <img src="Images/Yarchagumba/SLIDE_05A.png" width="100%">
-    </div>
-  </div>
+  <img src="Images/Yarchagumba/SLIDE_05A.png" alt="post 2">
+</div>
+</div>
+
+
+
 
   <div class="project_margin">
     <img src="Images/Yarchagumba/SLIDE_08.png" width="100%">
   </div>
 
-  <div class="row">
-    <div class="col-md-6 project_margin">
-      <img src="Images/Yarchagumba/SLIDE_09A.gif" width="100%">
-    </div>
-    <div class="col-md-6 project_margin">
-      <img src="Images/Yarchagumba/SLIDE_09B.png" width="100%">
-    </div>
-  </div>
+  <div class="img-container">
+  <div class="two-img-row project_margin">
+  <img src="Images/Yarchagumba/SLIDE_09A.gif" alt="post 1">
+  <img src="Images/Yarchagumba/SLIDE_09B.png" alt="post 2">
+</div>
+</div>
+
+  
 
   <div class="project_margin">
     <img src="Images/Yarchagumba/SLIDE_06.png" width="100%">
