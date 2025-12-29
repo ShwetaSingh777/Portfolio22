@@ -44,6 +44,28 @@
       background-color: #dbcf9b;
     }
 
+     .img-container {
+  width: 100%;
+  margin: 0 auto;    /* centers and prevents overflow */
+  overflow: hidden;  /* ensures nothing spills out */
+}
+
+
+.two-img-row img {
+  width: 50%;
+  min-width: 0; /* prevents flex overflow behavior */
+  object-fit: cover;
+}
+
+
+    .two-img-row {
+  display: flex;
+  width: 100%;
+  gap: 25px; /* center gutter size you can adjust anytime */
+  margin-left: 0;
+  margin-right: 0;
+}
+
 
 
     @media (max-width: 991px) {
@@ -337,16 +359,14 @@
     <img src="Images/Mazzeme/SLIDE_02.png" width="100%">
   </div>
 
-  <div class="row">
-    <div class="col-md-6 project_margin">
-      <img src="Images/Mazzeme/SLIDE_03B.png" width="100%">
-    </div>
-    <div class="col-md-6 project_margin">
-      <video autoplay loop muted playsinline class="full-video">
+    <div class="img-container">
+  <div class="two-img-row project_margin">
+  <img src="Images/Mazzeme/SLIDE_03B.png" alt="post 1">
+  <video autoplay loop muted playsinline class="full-video">
         <source src="Images/Mazzeme/SLIDE_03C.mp4" type="video/mp4">
       </video>
-    </div>
-  </div>
+</div>
+</div>
 
   <div class="project_margin">
     <img src="Images/Mazzeme/SLIDE_04.png" width="100%">
@@ -356,14 +376,14 @@
     <img src="Images/Mazzeme/SLIDE_05.png" width="100%">
   </div>
 
-  <div class="row">
-    <div class="col-md-6 project_margin">
-      <img src="Images/Mazzeme/SLIDE_06A.png" width="100%">
-    </div>
-    <div class="col-md-6 project_margin">
-      <img src="Images/Mazzeme/SLIDE_06B.png" width="100%">
-    </div>
-  </div>
+  <div class="img-container">
+  <div class="two-img-row project_margin">
+  <img src="Images/Mazzeme/SLIDE_06A.png" alt="post 1">
+  <img src="Images/Mazzeme/SLIDE_06B.png" alt="post 2">
+</div>
+</div>
+
+
 
   <div class="project_margin">
     <video autoplay loop muted playsinline class="full-video">
@@ -375,29 +395,26 @@
     <img src="Images/Mazzeme/SLIDE_08A.png" width="100%">
   </div>
 
-  <div class="row">
-    <div class="col-md-6 project_margin">
-      <img src="Images/Mazzeme/SLIDE_09A.png" width="100%">
-    </div>
-    <div class="col-md-6 project_margin">
-      <video autoplay loop muted playsinline class="full-video">
+  <div class="img-container">
+  <div class="two-img-row project_margin">
+  <img src="Images/Mazzeme/SLIDE_09A.png" alt="post 1">
+  <video autoplay loop muted playsinline class="full-video">
         <source src="Images/Mazzeme/SLIDE_09B.mp4" type="video/mp4">
       </video>
-    </div>
-  </div>
+</div>
+</div>
 
   <div class="project_margin">
     <img src="Images/Mazzeme/SLIDE_10.gif" width="100%">
   </div>
 
-  <div class="row">
-    <div class="col-md-6 project_margin">
-      <img src="Images/Mazzeme/SLIDE_11A.png" width="100%">
-    </div>
-    <div class="col-md-6 project_margin">
-      <img src="Images/Mazzeme/SLIDE_11B.png" width="100%">
-    </div>
-  </div>
+  <div class="img-container">
+  <div class="two-img-row project_margin">
+  <img src="Images/Mazzeme/SLIDE_11A.png" alt="post 1">
+ <img src="Images/Mazzeme/SLIDE_11B.png" alt="post 2">
+</div>
+</div>
+
 
   <div class="project_margin">
     <img src="Images/Mazzeme/SLIDE_12.png" width="100%">
