@@ -44,6 +44,34 @@
             background-color: #dbcf9b;
         }
 
+         .img-container {
+  width: 100%;
+  margin: 0 auto;    /* centers and prevents overflow */
+  overflow: hidden;  /* ensures nothing spills out */
+}
+
+
+.two-img-row img {
+  width: 50%;
+  min-width: 0; /* prevents flex overflow behavior */
+  object-fit: cover;
+}
+
+
+    .two-img-row {
+  display: flex;
+  width: 100%;
+  gap: 25px; /* center gutter size you can adjust anytime */
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.two-img-row video {
+  width: 50%;
+  min-width: 0;
+  object-fit: cover;
+}
+
 
 
         @media (max-width: 991px) {
@@ -343,67 +371,56 @@
     </div> ----->
 
 
-    <div class="row">
-        <div class="col-md-6 project_margin">
-            <img src="Images/Phalam/BEHANCE_03A.png" width="100%">
-        </div>
-        <div class="col-md-6 project_margin">
-            <img src="Images/Phalam/BEHANCE_03B.png" width="100%">
-        </div>
-    </div>
+    <div class="img-container">
+  <div class="two-img-row project_margin">
+  <img src="Images/Phalam/BEHANCE_03A.png" alt="post 1">
+  <img src="Images/Phalam/BEHANCE_03B.png" alt="post 2">
+</div>
+</div>
 
-    <div class="row">
-        <div class="col-md-6 project_margin">
-            <img src="Images/Phalam/BEHANCE_04A.png" width="100%">
-        </div>
-        <div class="col-md-6 project_margin">
-            <img src="Images/Phalam/BEHANCE_04B.png" width="100%">
-        </div>
-    </div>
+<div class="img-container">
+  <div class="two-img-row project_margin">
+  <img src="Images/Phalam/BEHANCE_04A.png" alt="post 1">
+  <img src="Images/Phalam/BEHANCE_04B.png" alt="post 2">
+</div>
+</div>
 
     <div class="project_margin">
         <img src="Images/Phalam/BEHANCE_05.png" width="100%">
     </div>
 
-    <div class="row">
-        <div class="col-md-6 project_margin">
-            <img src="Images/Phalam/BEHANCE_06A.png" width="100%">
-        </div>
-        <div class="col-md-6 project_margin">
-            <img src="Images/Phalam/BEHANCE_06B.png" width="100%">
-        </div>
-    </div>
+    <div class="img-container">
+  <div class="two-img-row project_margin">
+  <img src="Images/Phalam/BEHANCE_06A.png" alt="post 1">
+  <img src="Images/Phalam/BEHANCE_06B.png" alt="post 2">
+</div>
+</div>
 
-    <div class="row">
-        <div class="col-md-6 project_margin">
-            <img src="Images/Phalam/BEHANCE_09A.png" width="100%">
-        </div>
-        <div class="col-md-6 project_margin">
-            <img src="Images/Phalam/BEHANCE_09B.png" width="100%">
-        </div>
-    </div>
+<div class="img-container">
+  <div class="two-img-row project_margin">
+  <img src="Images/Phalam/BEHANCE_09A.png" alt="post 1">
+  <img src="Images/Phalam/BEHANCE_09B.png" alt="post 2">
+</div>
+</div>
 
     <div class="project_margin">
         <img src="Images/Phalam/BEHANCE_08.png" width="100%">
     </div>
 
-    <div class="row">
-        <div class="col-md-6 project_margin">
-            <img src="Images/Phalam/BEHANCE_07B.png" width="100%">
-        </div>
-        <div class="col-md-6 project_margin">
-            <img src="Images/Phalam/BEHANCE_07A.png" width="100%">
-        </div>
-    </div>
+    <div class="img-container">
+  <div class="two-img-row project_margin">
+  <img src="Images/Phalam/BEHANCE_07A.png" alt="post 1">
+  <img src="Images/Phalam/BEHANCE_07B.png" alt="post 2">
+</div>
+</div>
 
-    <div class="row">
-        <div class="col-md-6 project_margin">
-            <img src="Images/Phalam/BEHANCE_10A.png" width="100%">
-        </div>
-        <div class="col-md-6 project_margin">
-            <img src="Images/Phalam/BEHANCE_10B.gif" width="100%">
-        </div>
-    </div>
+<div class="img-container">
+  <div class="two-img-row project_margin">
+  <img src="Images/Phalam/BEHANCE_10A.png" alt="post 1">
+  <img src="Images/Phalam/BEHANCE_10B.gif" alt="post 2">
+</div>
+</div>
+ 
 
     <div class="case-study-text align-content-center text-center pt-2">
         <p>
@@ -411,14 +428,12 @@
         </p>
     </div>
 
-    <div class="row">
-        <div class="col-md-6 project_margin">
-            <img src="Images/Phalam/BEHANCE_11B_2.gif" width="100%">
-        </div>
-        <div class="col-md-6 project_margin">
-            <img src="Images/Phalam/BEHANCE_11D.gif" width="100%">
-        </div>
-    </div>
+    <div class="img-container">
+  <div class="two-img-row project_margin">
+  <img src="Images/Phalam/BEHANCE_11B_2.gif" alt="post 1">
+  <img src="Images/Phalam/BEHANCE_11D.gif" alt="post 2">
+</div>
+</div>
 
     <!---------------------Arrows-------------------->
     <div class="row px-3">
