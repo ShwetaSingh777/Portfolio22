@@ -44,6 +44,34 @@
       background-color: #dbcf9b;
     }
 
+     .img-container {
+  width: 100%;
+  margin: 0 auto;    /* centers and prevents overflow */
+  overflow: hidden;  /* ensures nothing spills out */
+}
+
+
+.two-img-row img {
+  width: 50%;
+  min-width: 0; /* prevents flex overflow behavior */
+  object-fit: cover;
+}
+
+
+    .two-img-row {
+  display: flex;
+  width: 100%;
+  gap: 25px; /* center gutter size you can adjust anytime */
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.two-img-row video {
+  width: 50%;
+  min-width: 0;
+  object-fit: cover;
+}
+
 
 
     @media (max-width: 991px) {
@@ -335,23 +363,19 @@
     <img src="Images/Jumpp/SLIDE_02.png" width="100%">
   </div>
 
-  <div class="row">
-    <div class="col-md-6 project_margin">
-      <img src="Images/Jumpp/SLIDE_03A.png" width="100%">
-    </div>
-    <div class="col-md-6 project_margin">
-      <img src="Images/Jumpp/SLIDE_03B.png" width="100%">
-    </div>
-  </div>
+   <div class="img-container">
+  <div class="two-img-row project_margin">
+  <img src="Images/Jumpp/SLIDE_03A.png" alt="post 1">
+  <img src="Images/Jumpp/SLIDE_03B.png" alt="post 2">
+</div>
+</div>
 
-  <div class="row">
-    <div class="col-md-6 project_margin">
-      <img src="Images/Jumpp/SLIDE_04A.png" width="100%">
-    </div>
-    <div class="col-md-6 project_margin">
-      <img src="Images/Jumpp/SLIDE_04B.png" width="100%">
-    </div>
-  </div>
+<div class="img-container">
+  <div class="two-img-row project_margin">
+  <img src="Images/Jumpp/SLIDE_04A.png" alt="post 1">
+  <img src="Images/Jumpp/SLIDE_04B.png" alt="post 2">
+</div>
+</div>
 
   <div class="project_margin">
     <video autoplay loop muted playsinline class="full-video">
@@ -369,14 +393,13 @@
     </video>
   </div>
 
-  <div class="row">
-    <div class="col-md-6 project_margin">
-      <img src="Images/Jumpp/SLIDE_07A.png" width="100%">
-    </div>
-    <div class="col-md-6 project_margin">
-      <img src="Images/Jumpp/SLIDE_07B.png" width="100%">
-    </div>
-  </div>
+  <div class="img-container">
+  <div class="two-img-row project_margin">
+  <img src="Images/Jumpp/SLIDE_07A.png" alt="post 1">
+  <img src="Images/Jumpp/SLIDE_07B.png" alt="post 2">
+</div>
+</div>
+
 
   <div class="project_margin">
     <img src="Images/Jumpp/SLIDE_08.png" width="100%">
