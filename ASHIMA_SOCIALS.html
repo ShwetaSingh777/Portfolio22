@@ -45,6 +45,30 @@
       color: #e34522;
     }
 
+    .img-container {
+  width: 100%;
+  margin: 0 auto;    /* centers and prevents overflow */
+  overflow: hidden;  /* ensures nothing spills out */
+}
+
+
+.two-img-row img {
+  width: 50%;
+  min-width: 0; /* prevents flex overflow behavior */
+  object-fit: cover;
+}
+
+
+    .two-img-row {
+  display: flex;
+  width: 100%;
+  gap: 25px; /* center gutter size you can adjust anytime */
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+
 
 
     @media (max-width: 991px) {
@@ -120,7 +144,7 @@
       z-index: 1;
     }
 
-
+   
     body{
       background-color: #dbcf9b;
       color: #2a0f03;
@@ -345,14 +369,13 @@
     <img src="Images/Ashima%20Socials/SLIDE_02.png" width="100%">
   </div>
 
-  <div class="row">
-    <div class="col-6 col-md-6 project_margin">
-      <img src="Images/Ashima%20Socials/SLIDE_03A.png" width="100%">
-    </div>
-    <div class="col-6 col-md-6 project_margin">
-      <img src="Images/Ashima%20Socials/SLIDE_03C.png" width="100%">
-    </div>
-  </div>
+  <div class="img-container">
+  <div class="two-img-row project_margin">
+  <img src="Images/Ashima%20Socials/SLIDE_03A.png" alt="post 1">
+  <img src="Images/Ashima%20Socials/SLIDE_03C.png" alt="post 2">
+</div>
+</div>
+
 
   <div class="project_margin">
     <img src="Images/Ashima%20Socials/SLIDE_04.png" width="100%">
@@ -368,23 +391,20 @@
     <img src="Images/Ashima%20Socials/SLIDE_05.png" width="100%">
   </div>
 
-  <div class="row">
-    <div class="col-6 col-md-6 project_margin">
-      <img src="Images/Ashima%20Socials/SLIDE_06A.png" width="100%">
-    </div>
-    <div class="col-6 col-md-6 project_margin">
-      <img src="Images/Ashima%20Socials/SLIDE_06B.png" width="100%">
-    </div>
-  </div>
+  <div class="img-container">
+  <div class="two-img-row project_margin">
+  <img src="Images/Ashima%20Socials/SLIDE_06A.png" alt="post 1">
+  <img src="Images/Ashima%20Socials/SLIDE_06B.png" alt="post 2">
+</div>
+</div>
 
-  <div class="row">
-    <div class="col-6 col-md-6 project_margin">
-      <img src="Images/Ashima%20Socials/SLIDE_07A.png" width="100%">
-    </div>
-    <div class="col-6 col-md-6 project_margin">
-      <img src="Images/Ashima%20Socials/SLIDE_07B.png" width="100%">
-    </div>
-  </div>
+ <div class="img-container">
+  <div class="two-img-row project_margin">
+  <img src="Images/Ashima%20Socials/SLIDE_07A.png" alt="post 1">
+  <img src="Images/Ashima%20Socials/SLIDE_07B.png" alt="post 2">
+</div>
+</div>
+
 
   <div class="project_margin">
     <img src="Images/Ashima%20Socials/SLIDE_08.png" width="100%">
@@ -394,14 +414,12 @@
     <img src="Images/Ashima%20Socials/SLIDE_09.png" width="100%">
   </div>
 
-  <div class="row">
-    <div class="col-6 col-md-6 project_margin">
-      <img src="Images/Ashima%20Socials/SLIDE_11A.png" width="100%">
-    </div>
-    <div class="col-6 col-md-6 project_margin">
-      <img src="Images/Ashima%20Socials/SLIDE_11B.png" width="100%">
-    </div>
-  </div>
+  <div class="img-container">
+  <div class="two-img-row project_margin">
+  <img src="Images/Ashima%20Socials/SLIDE_11A.png" alt="post 1">
+  <img src="Images/Ashima%20Socials/SLIDE_11B.png" alt="post 2">
+</div>
+</div>
 
   <div class="project_margin">
     <img src="Images/Ashima%20Socials/SLIDE_10.png" width="100%">
