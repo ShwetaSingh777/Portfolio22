@@ -37,6 +37,14 @@
 
 .project_margin{
     margin-bottom: 10px;
+
+}
+
+ .two-img-row {
+
+  gap: 10px !important; /* center gutter size you can adjust anytime */
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .links a{
