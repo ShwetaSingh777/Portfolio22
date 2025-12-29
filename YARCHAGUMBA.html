@@ -148,10 +148,18 @@
       color: #2a0f03;
     }
 
-    .full-video {
-      width: 100%;
-      display: block;
-    }
+ 
+.two-img-row video {
+  width: 50%;
+  min-width: 0;
+  object-fit: cover;
+}
+
+.full-video{
+  width: 100%;
+  display: block;
+}
+
 
     h1{
       font-family: "MyCustomFont", sans-serif;
@@ -384,7 +392,7 @@
 
 <div class="img-container">
   <div class="two-img-row project_margin">
-  <video autoplay loop muted playsinline class="full-video">
+  <video autoplay loop muted playsinline>
         <source src="Images/Yarchagumba/SLIDE_05B.mp4" type="video/mp4">
       </video>
   <img src="Images/Yarchagumba/SLIDE_05A.png" alt="post 2">
